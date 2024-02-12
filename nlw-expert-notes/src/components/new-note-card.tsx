@@ -122,10 +122,6 @@ export function NewNoteCard({onNoteCreated}: NewNoteCardProps) {
                     </button>) : (<button type='button' onClick={handleSaveNote} className="w-full bg-lime-400 py-4 text-center text-sm text-lime-950 outline-none font-medium hover:bg-lime-500">
                         Salvar nota
                     </button>)}
-
-                    <button type='submit' className="w-full bg-lime-400 py-4 text-center text-sm text-lime-950 outline-none font-medium hover:bg-lime-500">
-                        Salvar nota
-                    </button>
                   </form>
                 </Dialog.Content>
             </Dialog.Portal>
